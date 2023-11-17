@@ -1,0 +1,48 @@
+/* register.css */
+
+/* Styles specific to the Register component */
+.register-container {
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 20px;
+   
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Adjusted for better alignment */
+  }
+  
+  .register-heading {
+    color: #f40202;
+    text-align: center;
+  }
+  
+  .register-form {
+    margin-top: 20px;
+  }
+  
+  .register-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .register-input {
+    width: 100%; /* Updated to full width */
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  .register-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #45a049;
+  }
+  

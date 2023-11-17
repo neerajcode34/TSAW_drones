@@ -1,0 +1,47 @@
+/* Quiz.css */
+
+.welcome-text {
+    margin-top: 20px;
+    font-size: 60px;
+  }
+  
+  .logout-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .logout-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* .quiz-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px auto; */
+    /* max-width: 800px; */
+  
+  
+  /* Add more styling for Sidebar and Question components if needed */
+  .quiz-container {
+   
+   
+    margin: 20px 20px;
+    max-width: 800px;
+  }
+  
+  .sidebar-container {
+    flex: 1;
+    margin-right: 20px; /* Add margin to create space between the sidebar and question */
+  }
+  
+  .question-container {
+    flex: 2;
+    padding: 20px; /* Add padding to the question container for spacing */
+  }
+    
